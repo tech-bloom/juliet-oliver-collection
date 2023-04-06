@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About | Juliet Oliver Collection</title>
+
+    <link rel="stylesheet" href="aboutstyle.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <script src="script.js"></script>
+
+    <nav data-toggled="false" data-transitionable="false">
+        <script src="navscript.js"></script>
+        <div id="nav-logo-section" class="nav-section">
+        <h1 class="logotxt"><a href="index.html">Juliet Oliver Collection</h1></a>
+        </div>
+        <div id="nav-mobile-section">
+          <div id="nav-link-section" class="nav-section">
+            <a href="about.html">ABOUT</a>
+            <a href="shop.html">SHOP</a>
+          </div>
+          <div id="nav-social-section" class="nav-section">
+            <a href="https://www.instagram.com/julietolivercollection/" target="_blank">
+              <i class="fa-brands fa-instagram fa-2xl"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-facebook fa-2xl"></i>
+            </a>    
+            <a href="#">
+              <i class="fa-brands fa-shopify fa-2xl"></i>
+            </a>
+          </div>
+          <div id="nav-contact-section" class="nav-section">
+            <a href="#">GET IN TOUCH</a>
+          </div>
+        </div>
+        <button id="nav-toggle-button" type="button" onclick="handleNavToggle()">
+          <span>Menu</span>
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+
+
+    <main>
+
+        <p class="contacttxt">Please fill out the form below and we will respond to your inquiry as soon as possible.</p>
+
+        <section class="formcarry-container">
+            <form action="#" method="POST" enctype="multipart/form-data">
+              
+              <div class="formcarry-block">
+                <label for="fc-generated-1-name">Full Name</label>
+                <input type="text" name="name" id="fc-generated-1-name" placeholder="Your first and last name" />
+              </div>
+                
+              <div class="formcarry-block">
+                <label for="fc-generated-1-email">Your Email Address</label>
+                <input type="email" name="email" id="fc-generated-1-email" placeholder="john@doe.com" />
+              </div>
+                
+              <div class="formcarry-block">
+                <label for="fc-generated-1-message">Your message</label>
+                <textarea name="message" name="message" id="fc-generated-1-message" placeholder="Enter your message..."></textarea>
+              </div>
+                
+              <div class="formcarry-block">  
+                <button type="submit">Send</button>
+              </div>
+            
+            </form>
+          </section>
+        <p class="contacttxt"> We appreciate your interest and look forward to connecting with you!</p> 
+    </main>
+
+        
+
+</body>
+</html> 
